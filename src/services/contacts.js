@@ -1,6 +1,6 @@
 import createHttpError from 'http-errors';
 import { SORT_ORDER } from '../constants/index.js';
-import { contactsCollection } from '../db/models/contact.js';
+import { contactsCollection } from '../db/models/contactModel.js';
 import { calculatePaginationData } from '../utils/calculatePaginationData.js';
 
 export const getAllContacts = async ({
