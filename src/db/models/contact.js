@@ -18,6 +18,7 @@ const contactsSchema = new Schema(
       default: 'personal',
       required: true,
     },
+    userId: { type: Schema.Types.ObjectId },
   },
   { timestamps: true, versionKey: false },
 );
