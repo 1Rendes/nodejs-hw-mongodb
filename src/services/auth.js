@@ -102,7 +102,7 @@ export const sendResetEmail = async (email) => {
   );
   const pathToResetTemplate = `${env(
     'APP_DOMAIN',
-  )}/reset-password?token=${resetToken}}`;
+  )}/reset-password?token=${resetToken}`;
   try {
     await sendMail({
       from: env(SMTP.SMTP_FROM),
