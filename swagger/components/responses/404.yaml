@@ -4,9 +4,13 @@ content:
     schema:
       type: object
       required:
+        - status
         - message
         - error
       properties:
+        status:
+          type: integer
+          example: 404
         message:
           type: string
           example: NotFoundError
