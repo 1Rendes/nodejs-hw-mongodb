@@ -543,11 +543,6 @@
                     "type": "boolean",
                     "example": false
                   },
-                  "userId": {
-                    "description": "Contact shows only to user with this id",
-                    "type": "string",
-                    "example": "671b9f649de31bc33ce7bcf9"
-                  },
                   "photo": {
                     "description": "Contact's photo",
                     "type": "string",
@@ -791,11 +786,6 @@
                     "description": "Is contact favourite or not",
                     "type": "boolean",
                     "example": false
-                  },
-                  "userId": {
-                    "description": "Contact shows only to user with this id",
-                    "type": "string",
-                    "example": "671b9f649de31bc33ce7bcf9"
                   },
                   "photo": {
                     "description": "Contact's photo",
